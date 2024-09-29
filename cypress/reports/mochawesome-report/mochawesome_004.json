@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-09-28T07:04:11.435Z",
+    "end": "2024-09-28T07:04:24.892Z",
+    "duration": 13457,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "28019d0d-5d74-45b7-8920-d7a47bdb8453",
+      "title": "",
+      "fullFile": "cypress\\integration\\Basic\\day2.js",
+      "file": "cypress\\integration\\Basic\\day2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7d40ce1c-d311-4281-a49e-b5e531ed17d4",
+          "title": "",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": " ",
+              "timedOut": null,
+              "duration": 9854,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.flipkart.com/');\ncy.xpath('//input[@placeholder=\"Search for Products, Brands and More\"]').type('t-shirt');\ncy.xpath('(//*[@class=\"EwE-Fa\"])[2]').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//*[@class=\"EwE-Fa\"])[2]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//*[@class=\"EwE-Fa\"])[2]`, but never found it.\n    at Context.eval (cypress/integration/Basic/day2.js:34:11)",
+                "diff": null
+              },
+              "uuid": "efb5630d-8114-475d-945a-650f02a96697",
+              "parentUUID": "7d40ce1c-d311-4281-a49e-b5e531ed17d4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "efb5630d-8114-475d-945a-650f02a96697"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9854,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

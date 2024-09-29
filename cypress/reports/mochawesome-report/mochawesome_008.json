@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-09-28T07:05:19.287Z",
+    "end": "2024-09-28T07:05:47.252Z",
+    "duration": 27965,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dded3c2b-509f-4142-bd16-8a5c46c3973e",
+      "title": "",
+      "fullFile": "cypress\\integration\\Basic\\hook.js",
+      "file": "cypress\\integration\\Basic\\hook.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b8476fe9-acf1-4bd1-a76b-5030bc823dc6",
+          "title": "",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": " ",
+              "timedOut": null,
+              "duration": 11210,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Admin').click();\ncy.url().should('include', 'orangehrmlive.com');",
+              "err": {},
+              "uuid": "5165cc08-bb7b-4c29-94ef-9e6b52289bd0",
+              "parentUUID": "b8476fe9-acf1-4bd1-a76b-5030bc823dc6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "",
+              "fullTitle": " ",
+              "timedOut": null,
+              "duration": 5804,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Leave').click();\ncy.url().should('include', 'viewLeaveList');",
+              "err": {},
+              "uuid": "08471bb3-7419-4042-bce5-f59f077afdcb",
+              "parentUUID": "b8476fe9-acf1-4bd1-a76b-5030bc823dc6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5165cc08-bb7b-4c29-94ef-9e6b52289bd0",
+            "08471bb3-7419-4042-bce5-f59f077afdcb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17014,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
